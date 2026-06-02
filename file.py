@@ -1,0 +1,6 @@
+a=open("sample.txt","w")
+a.write("hello\n")
+a.writelines(["my name is fathima\n","i am 20\n"])
+a.close()
+a=open("sample.txt","r")
+a.readlines()
