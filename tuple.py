@@ -1,0 +1,16 @@
+my_tuple = ("apple", "banana", "cherry")
+print( my_tuple)
+tuple = ("apple",)
+print(tuple)
+print(my_tuple[0])
+fruit1, fruit2, fruit3 = my_tuple
+print("Unpacked Values:")
+print(fruit1)
+print(fruit2)
+print(fruit3)
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+joined_tuple = tuple1 + tuple2
+print(joined_tuple)
+numbers = (1, 2, 3, 2, 4, 2)
+print(numbers.count(2))

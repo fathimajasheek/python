@@ -1,0 +1,17 @@
+l=[1,2,3,4,5,6]
+print(l[0])
+print(l[0:5])
+l[5]=7
+print(l)
+l.append(3)
+print(l)
+l.insert(3,27)
+print(l)
+l.extend([67,53,42])
+print(l)
+l.remove(67)
+print(l)
+print(l.count(3))
+print(l.index(53))
+l.reverse()
+print(l)
