@@ -4,3 +4,4 @@ d["age"]=21
 d.pop("age")
 d1=d.copy()
 print(d1)
+print(d)
