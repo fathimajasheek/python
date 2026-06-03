@@ -22,3 +22,4 @@ class food:
 food1=food()
 food1.attr("quarter","asian")
 food1.about()
+
